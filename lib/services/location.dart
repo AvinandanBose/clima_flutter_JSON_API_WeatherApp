@@ -8,7 +8,7 @@ class Location{
     permission = await Geolocator.requestPermission();
     try {
       Position position = await Geolocator.getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.low);
+          desiredAccuracy: LocationAccuracy.bestForNavigation);//LocationAccuracy.high but avoid LocationAccuracy.low
       latitude = position.latitude;
       longitude = position.longitude;
 
