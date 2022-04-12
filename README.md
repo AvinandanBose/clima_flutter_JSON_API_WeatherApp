@@ -1,12 +1,12 @@
 #Chimate APP
 
-#This a Climate Weather Condition based which take update from INTERNET.
+
 
 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This a Climate Weather Condition based which take update from INTERNET.
 
 A few resources to get you started if this is your first Flutter project:
 
